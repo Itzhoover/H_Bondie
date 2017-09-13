@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+}
+
+#container{
+    width: 100%; 
+
+}
+
+#top{
+    width: 100%;
+    height: 270px;
+    background: #1a2940;
+}
+
+#top-content{
+    width: 80%;
+    margin: auto;
+    padding-top : 15px;
+}
+
+#top-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+
+}
+
+#logo p{
+    color : #fff;
+    font-family: fantasy;
+}
+
+#top-nav{
+    width : 50%;
+    display: flex;
+}
+
+#top-nav ul{
+    
+}
+
+#top-nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left : 10px;
+    margin-right: 10px;
+}
+
+#top-nav ul li a{
+    text-decoration: none;
+    color : #fff;
+}
+
+#login{
+    width : 40px;
+    height: 15px;
+    background : #ff3251;
+    color : #ff912b;
+    padding: 2px;
+    margin-left: 5px;
+    border-radius: 5px;
+    text-align : center;
+    cursor: pointer;
+}
+
+#top-heading{
+    text-align: center;
+    color : #fff;
+    margin-top: 70px;
+}
+
+#heading-button{
+    width : 70px;
+    height: 20px;
+    background : #ff3251;
+    color : #ff912b;
+    border-radius: 5px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+#good-panel{
+    width: 100%;
+    height: 330px;
+    background: ;
+}
+
+#good-panel-content{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+
+#good-content-top{
+     
+}
+
+#good-panel-main{
+    display: flex;
+}
+
+.good-panel-desc{
+    width: 50%;
+    height: 100px;
+    background-image: url('../images/numbers.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+}
+
+.desc-content{
+    margin-top: 10px;
+}
+
+#make-panel{
+    width: 100%;
+    
+    background-color: #f3f8fe;
+    padding-bottom: 20px;
+}
+
+#make-panel-content{
+    
+}
+
+#make-panel-content{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+
+#make-nav{
+    margin-top: 50px;
+}
+
+#make-nav ul{
+    
+}
+
+#make-nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #dde5eb
+}
+
+#make-nav ul li:nth-child(1){
+    background-color: #ff3251;
+    padding : 3px;
+    border-radius: 5px;
+    color: #ff912b;
+}
+
+#make-page{
+    margin-top: 30px;
+    
+}
+
+#make-page img{
+    display: inline-block;
+    width: 20%;
+    padding-bottom: 15px;
+    padding-left: 1%;
+}
+
+#make-button{
+    width: 10%;
+    background: #ff3251;
+    border-radius: 10px;
+    color: #ff912b;
+    margin: 10px auto;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#about-panel{
+    width: 100%;
+    height: 330px;
+    
+}
+
+#about-panel-content{
+    width: 80%;
+    margin: auto;
+}
+
+#project{
+    width: 100%;
+    height: 250px;
+    padding-top: 50px;
+    background: #1a2940;
+}
+
+#project-content{
+    text-align: center;
+} 
+
+#project-content h5{
+    color: #fff;
+    font-size: 20px;
+}
+
+#project-button{
+    width: 100px;
+    height: 20px;
+    background: #ff3251;
+    margin: 50px auto;
+    color: #ff912b;
+    padding: 10px;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#footer{
+    width: 100%;
+    height: 300px;
+    background: #f3f8fe;
+    padding-top: 50px;
+}
+
+#footer-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#bondie{
+    width: 34%;
+}
+
+.link{
+    width: 14%;
+}
+
+.link ul{
+
+}
+
+.link ul li{
+    list-style: none;
+    margin-top: 15px;
+}
+
+.link ul li a{
+    text-decoration: none;
+    color: #57667d;
+}
+
+#about{
+
+}
+
+#contact{
+    width: 34%;
+     
+}
+
+#contact p{
+    color: #57667d;
+    line-height: 35px;
+}
+
+#contact-contact{
+    width: 50%;
+    height: 25px;
+    background: #ff3251;
+    margin-top: 40px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
